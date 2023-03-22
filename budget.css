@@ -27,9 +27,8 @@ body{
 .kiba{
     background-color:rgb(40, 199, 196);
     height:30px;
-    width: 90px;
     font-size: 15px;
-    font-family:tahoma, sans-serif;
+    font-family:cursive;
     color: #ffffff;
     border-color:rgb(40, 199, 196);
 }
@@ -46,10 +45,11 @@ body{
     justify-content: right;
 }
 .opera{
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
     padding-top:30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 .open{
     display: flex;
